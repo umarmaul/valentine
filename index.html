@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Untuk Sayangku 🌹 💖</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Brush Script MT", cursive;
+            }
+
+            body {
+                background: linear-gradient(45deg, #ff3b3f, #ff6b6b);
+                min-height: 100vh;
+                overflow-x: hidden;
+            }
+
+            .container {
+                max-width: 390px;
+                margin: 0 auto;
+                padding: 20px;
+                position: relative;
+            }
+
+            .header {
+                text-align: center;
+                padding: 30px 0;
+            }
+
+            .heart-pulse {
+                color: #fff;
+                font-size: 80px;
+                animation: pulse 1.5s infinite;
+            }
+
+            h1 {
+                color: #fff;
+                margin: 15px 0;
+                font-size: 2.8em;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            }
+
+            .photo-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+                margin: 20px 0;
+            }
+
+            .photo-item {
+                position: relative;
+                border-radius: 15px;
+                overflow: hidden;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s;
+            }
+
+            .photo-item img {
+                width: 100%;
+                height: 180px;
+                object-fit: cover;
+            }
+
+            .photo-item:hover {
+                transform: scale(1.05);
+            }
+
+            .love-letter {
+                background: rgba(255, 255, 255, 0.95);
+                padding: 25px;
+                border-radius: 20px;
+                margin: 25px 0;
+                position: relative;
+                transform: rotate(-2deg);
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            }
+
+            .love-letter p {
+                font-size: 1.3em;
+                line-height: 1.6;
+                color: #333;
+                margin: 10px 0;
+            }
+
+            .love-btn {
+                background: #fff;
+                color: #ff3b3f;
+                border: none;
+                padding: 18px 35px;
+                border-radius: 30px;
+                font-size: 1.4em;
+                margin: 20px auto;
+                display: block;
+                cursor: pointer;
+                transition: all 0.3s;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            }
+
+            .love-btn:hover {
+                transform: scale(1.1);
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            }
+
+            .floating-hearts {
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+            }
+
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.2);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
+
+            @keyframes float {
+                0% {
+                    transform: translateY(100vh) rotate(0deg);
+                }
+                100% {
+                    transform: translateY(-100vh) rotate(360deg);
+                }
+            }
+
+            .heart-particle {
+                position: absolute;
+                font-size: 24px;
+                animation: float 8s linear infinite;
+                opacity: 0.7;
+            }
+
+            .sticker {
+                position: absolute;
+                width: 80px;
+                height: 80px;
+                background: url('data:image/svg+xml,<svg viewBox="0 0 24 24" fill="%23ff3b3f" xmlns="http://www.w3.org/2000/svg"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>');
+                background-size: contain;
+                animation: bounce 2s infinite;
+            }
+
+            @keyframes bounce {
+                0%,
+                100% {
+                    transform: translateY(0);
+                }
+                50% {
+                    transform: translateY(-20px);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="floating-hearts" id="heartsContainer"></div>
+
+        <div class="container">
+            <div class="header">
+                <div class="heart-pulse">💖</div>
+                <h1>My Forever Valentine 🌹</h1>
+            </div>
+
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <img src="1.jpg" alt="Our Memory 1" />
+                </div>
+                <div class="photo-item">
+                    <img src="2.jpg" alt="Our Memory 2" />
+                </div>
+                <div class="photo-item">
+                    <img src="3.jpg" alt="Our Memory 3" />
+                </div>
+                <div class="photo-item">
+                    <img src="4.jpg" alt="Our Memory 4" />
+                </div>
+            </div>
+
+            <div class="love-letter">
+                <p>Halo Cantik!</p>
+                <p>
+                    Makasih banyak ya sayang udah bersama aku selama ini, aku
+                    sangat sangat bersyukur bisa bersama kamu, aku sangat senang
+                    bersama kamu sayang, waktu bersama kamu adalah waktu
+                    favoritku, semoga nanti pas kita ketemu kita bisa bersenang
+                    senang dan membuat momen bersama yang banyak.
+                </p>
+                <p>
+                    Through all time and space, my soul will always find yours.
+                    🌠
+                </p>
+                <p>Yours forever and always,</p>
+                <p>Umar</p>
+                <div class="sticker" style="top: -30px; right: -20px"></div>
+                <div
+                    class="sticker"
+                    style="bottom: -30px; left: -20px; transform: scaleX(-1)"
+                ></div>
+            </div>
+
+            <button class="love-btn" onclick="showerLove()">
+                Touch My Heart 💞
+            </button>
+        </div>
+
+        <script>
+            // Continuous heart particles
+            function createHearts() {
+                const heart = document.createElement("div");
+                heart.className = "heart-particle";
+                heart.innerHTML = "❤️";
+                heart.style.left = Math.random() * 100 + "%";
+                heart.style.animationDuration = Math.random() * 3 + 5 + "s";
+                heart.style.fontSize = Math.random() * 20 + 15 + "px";
+                document.getElementById("heartsContainer").appendChild(heart);
+
+                setTimeout(() => heart.remove(), 8000);
+            }
+
+            // Initial heart creation
+            setInterval(createHearts, 300);
+
+            // Love shower effect
+            function showerLove() {
+                const messages = [
+                    "You're my universe 🌌",
+                    "Your smile is my sunshine 🌞",
+                    "I'm addicted to your love 💘",
+                    "You're my perfect always 💍",
+                ];
+
+                // Create message hearts
+                for (let i = 0; i < 10; i++) {
+                    const heart = document.createElement("div");
+                    heart.className = "heart-particle";
+                    heart.innerHTML =
+                        messages[Math.floor(Math.random() * messages.length)];
+                    heart.style.left = Math.random() * 100 + "%";
+                    heart.style.animation = "float 5s ease-out";
+                    heart.style.color = `hsl(${
+                        Math.random() * 360
+                    }deg, 70%, 60%)`;
+                    document
+                        .getElementById("heartsContainer")
+                        .appendChild(heart);
+                    setTimeout(() => heart.remove(), 5000);
+                }
+            }
+        </script>
+    </body>
+</html>
